@@ -1,0 +1,617 @@
+header{
+    background-image: url("img18/BG.png");
+    padding: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header p{
+   font-size: 24px;
+   font-weight: lighter;
+   color: #0c1946;
+}
+footer{
+    background-image: url("img18/BG.png");
+    padding: 60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.up{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-nav{
+   gap: 40px;
+   display: flex;
+}
+.main-nav a{
+   color: #fff;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    direction: column;
+    gap:4px;
+    align-items: center;
+}
+ 
+.logo2 p{
+    display: block;
+    gap: 0;
+    margin: 0;
+    line-height: 1;
+}
+p{
+    margin: 0;
+    color: #fff;
+}
+.ser_text_reg{
+    
+    text-align: center;
+}
+.ser_text_reg h3{
+    font-size: 45px;
+    margin-top: 60px;
+    font-family:'Regular',sans-serif;
+    font-weight: lighter;
+}
+.all_cont{
+    padding: 30px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    justify-content: center;
+}
+.register-form{
+    width: 700px;
+    opacity: 0.8;
+}
+.register-form label{
+    color: #ccc;
+}
+.niz{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.niz a,p{
+text-decoration: none;
+color: rgb(52, 155, 150);
+}
+.get_button{
+    padding: 9px 13px 9px 13px;
+    background-color: #204d53;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+.get_button:hover{
+    background-color: #327a64;
+}
+.projects-grid {
+  padding: 50px 170px;
+}
+
+.otd_card{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+.otd{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.all_card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.otd_card_content{
+    background-color: #f8f7f7;
+    padding: 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.projects-filter{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.projects-filter a{
+    color: #00a896;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.OTZ-form{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.OST{
+    background-image: url("img18/загрузка.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ostotziv{
+    display: flex;
+   padding: 80px 300px 50px 300px;
+   gap: 50px;
+   
+}
+.z{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.z p{
+    font-size: 45px;
+    color: #12266f;
+    font-weight: 500;
+     font-family: 'Inter', sans-serif;
+}
+.z2{
+     padding: 50px 300px 50px 300px;
+}
+
+.application-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 300px 80px 300px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: 600;
+    font-size: 13px;
+    color: #2d3748;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 10px 14px;
+    border: 2px solid #020406;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: transparent;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 9px 13px 9px 13px;
+    background-color: #204d53;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.admin-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background: rgb(217, 251, 250);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #e0e7ef;
+}
+
+.stat-number {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #204d53;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #2d3748;
+}
+
+.admin-table-wrapper {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #e0e7ef;
+    overflow-x: auto;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 700px;
+}
+
+.admin-table th {
+    background: #f8fafc;
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #e0e7ef;
+}
+
+.admin-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e7ef;
+}
+
+.admin-table tr:last-child td {
+    border-bottom: none;
+}
+
+.admin-actions select {
+    padding: 6px 10px;
+    border: 1px solid #e0e7ef;
+    border-radius: 4px;
+    font-size: 12px;
+    background: white;
+}
+.container{
+    padding: 90px 60px 70px 60px;
+}
+.up_2_1{
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.up_2_1 h1{
+    color: #194042;
+}
+.up_2_1 h5{
+    color: #28666a;
+}
+.timeline-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+}
+.timeline-item p{
+    color: #75777a;
+    text-align: center;
+}
+.timeline-item img{
+    margin-bottom: 30px;
+}
+.timeline-item:hover{
+    transform: scale(1.1);
+}
+.slider {
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.riad{
+   
+    display: flex ;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+.slider__track {
+    display: flex;
+    width: max-content;
+    gap: 10px;
+}
+
+.slide {
+    width: 100vw;
+    max-width: 100vw;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    overflow: hidden;
+}
+.slide__image {
+    flex: 1;
+    min-width: 300px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.slide__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.portfolio {
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.O{
+    background-image: url("img18/загрузка.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.up_foot{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 480px) {
+  .riad {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 0 15px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+    
+    .riad .timeline-item img {
+        max-width: 60px;
+        margin: 0 auto;
+    }
+    
+    .timeline-item h4 {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+    
+    .timeline-item p {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+    header {
+        padding: 20px 10px;
+    }
+    
+    header p {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    footer {
+        padding: 20px 10px;
+    }
+    
+    .up {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .logo img {
+        width: 60px;
+        height: auto;
+    }
+    
+    .logo2 p {
+        font-size: 14px;
+    }
+    
+    .main-nav {
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .main-nav a {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    p {
+        font-size: 14px;
+    }
+    
+    .ser_text_reg h3 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    
+    .all_cont {
+        padding: 15px;
+        margin-bottom: 40px;
+        gap: 15px;
+    }
+    
+    .register-form {
+        width: 100%;
+        opacity: 1;
+    }
+    
+    .niz {
+        flex-direction: column;
+        gap: 10px;
+        align-items: stretch;
+        text-align: center;
+    }
+    
+    .get_button {
+        width: 100%;
+        padding: 12px;
+    }
+    
+    .projects-grid {
+        padding: 15px 10px;
+    }
+    
+    .projects-filter {
+        padding: 20px 10px;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .projects-filter a {
+        font-size: 16px;
+    }
+    
+    .all_card {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .otd_card_content {
+        padding: 16px;
+    }
+    
+    .ostotziv {
+        padding: 20px 15px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .z p {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .z2 {
+        padding: 15px 15px;
+    }
+    
+    .application-form {
+        padding: 15px 15px 30px 15px;
+        gap: 12px;
+    }
+    
+    .OTZ-form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    
+    .radio-group {
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 13px;
+    }
+    
+    .container {
+        padding: 20px 10px;
+    }
+    
+    .up_2_1 {
+        padding: 30px 15px;
+    }
+    
+    .up_2_1 h1 {
+        font-size: 22px;
+    }
+    
+    .up_2_1 h5 {
+        font-size: 14px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .timeline-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+    
+    .timeline-item p {
+        font-size: 13px;
+    }
+    
+    .slider__track {
+        gap: 5px;
+    }
+    
+    .slide__image {
+        min-width: 150px;
+        height: 200px;
+    }
+    
+    .portfolio {
+        width: 100%;
+        padding: 20px 10px;
+    }
+    .admin-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .stat-card {
+        padding: 12px;
+    }
+
+    .stat-number {
+        font-size: 22px;
+    }
+
+    .stat-label {
+        font-size: 12px;
+    }
+
+    .admin-table {
+        font-size: 12px;
+        min-width: 500px;
+    }
+
+    .admin-table th,
+    .admin-table td {
+        padding: 8px 10px;
+    }
+
+    .admin-actions select {
+        font-size: 11px;
+        padding: 4px 6px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
